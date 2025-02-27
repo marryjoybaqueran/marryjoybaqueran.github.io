@@ -1,0 +1,82 @@
+body {
+background-image: url(background.jpg);
+background-repeat: no-repeat;
+  background-attachment: fixed;
+   background-size: cover;
+
+}
+
+.title {
+color:white;
+text-shadow:2px 2px 1px black;
+color:#FFAE42;
+  padding: 0px;
+  text-align: center;
+  font-size:25px;
+  font-family:san-serif;
+}
+
+
+
+
+.bar {
+  overflow: hidden;
+  padding:1px;
+  margin-left:50px;
+
+}
+
+.bar a {
+  float: left;
+  display: block;
+  color: #f2f2f2; 
+  font-size:25px;
+  font-family:serif;
+  text-shadow: 2px 2px 2px #FFAE42;
+  padding:50px;
+}
+
+.row{
+	display:flex;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  font-size:25px;
+  text-align:center;
+  text-shadow:2px 2px 2px black;
+  color:white;
+}
+
+.bar a:hover {
+  background-color:skyblue;
+  color: black;
+}
+.column.left{
+	margin:50;
+}
+
+.column.right {
+  width: 25%;
+  color: white;
+  text-align:left;
+  font-size: 23px;
+  font-family:san-serif;
+}
+.video{
+    padding:50px;
+    text-align: center;
+}
+
+
+
+.footer {
+  text-align:center;
+  font-size:25px;
+  color:black;
+  text-shadow: 1px 1px 2px white;
+  padding:30px;
+  background-image:url(footer.jpg);
+}
